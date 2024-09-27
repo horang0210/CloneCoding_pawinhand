@@ -1,14 +1,10 @@
 import React from "react";
-import Menu from "./Menu";
-import { IoHomeOutline } from "react-icons/io5";
-import workStyles from "./Works.module.css";
-import useUsernameStore from "../store";
-import { FaRegArrowAltCircleDown } from "react-icons/fa";
+// import useUsernameStore from "../store";
 import styles from "./Home.module.css";
 import Layout from "../components/layout";
 
 function Home() {
-  const { username } = useUsernameStore();
+ // const { username } = useUsernameStore();
 
   return (
     <Layout>

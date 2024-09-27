@@ -29,7 +29,6 @@ export default function Footer() {
         <p>APP ON</p>
         <a
           href="https://appsto.re/kr/oDrX8.i"
-          target="_blank"
           title="애플 앱스토어"
         >
           <img
@@ -39,7 +38,6 @@ export default function Footer() {
         </a>
         <a
           href="https://play.google.com/store/apps/details?id=lost.animal.main"
-          target="_blank"
           title="구글 플레이스토어"
         >
           <img
@@ -65,7 +63,7 @@ export default function Footer() {
           <p>
             ©포인핸드 제공/데이터 출처 <strong>농림축산식품부</strong> ㅣ
             Website made by{" "}
-            <a href="https://github.com/horang0210" target="_blank">
+            <a href="https://github.com/horang0210" >
               Hyejin.H
             </a>
           </p>
