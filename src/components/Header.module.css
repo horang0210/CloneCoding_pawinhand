@@ -1,0 +1,68 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #F29700;
+    color: #ffffff;
+}
+
+.logo{
+    color: #ffffff;
+    width: 223px;
+    height: 61px;
+    cursor: pointer;
+}
+
+.btnMenu{
+    background-color: #ffffff;
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right; 
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btnLoginContainer{
+    display: flex;
+    padding: 5px;
+}
+
+.btnLogin{
+    background-color: #ffffff;
+    color:  #aa6b04;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid #aa6b04;
+    width: 50px;
+    height: 20px;
+    border-radius: 10%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contactInfo{
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+
+.logoContainer{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
