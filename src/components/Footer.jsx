@@ -1,8 +1,12 @@
 import styles from "./Footer.module.css";
+import { FaHeadphones } from "react-icons/fa6";
+import { MdOutlineMailOutline } from "react-icons/md";
+
 
 export default function Footer() {
   return (
     <div className={styles.footer}>
+        <div className={styles.footerContainer}>
       <ul class="pawinhandInfo">
         <img
           src="https://cafe24.poxo.com/ec01/pawinhand1/6aDrbsrpgztyixM+aENnH6HjH4TTykqgQt5HQjnLmP6XbyGTSvgS4FKKyxfnmmzX/swHIcSYFKQg3+gyk9qXzw==/_/img/pawinhand/ico-rescue.png"
@@ -44,19 +48,12 @@ export default function Footer() {
           />
         </a>
       </div>
+      </div>
 
       <div class="contactInfo">
         <p>
-          <img
-            src="https://cafe24.poxo.com/ec01/pawinhand1/6aDrbsrpgztyixM+aENnH6HjH4TTykqgQt5HQjnLmP6XbyGTSvgS4FKKyxfnmmzX/swHIcSYFKQg3+gyk9qXzw==/_/img/pawinhand/ico-contact-phone.png"
-            alt=""
-          />
-          02-6956-6242
-          <img
-            src="https://cafe24.poxo.com/ec01/pawinhand1/6aDrbsrpgztyixM+aENnH6HjH4TTykqgQt5HQjnLmP6XbyGTSvgS4FKKyxfnmmzX/swHIcSYFKQg3+gyk9qXzw==/_/img/pawinhand/ico-contact-email.png"
-            alt=""
-          />
-          pawinhand@naver.com
+          <FaHeadphones /> 02-6956-6242<br />
+          <MdOutlineMailOutline /> pawinhand@naver.com
         </p>
 
         <p className="addr">

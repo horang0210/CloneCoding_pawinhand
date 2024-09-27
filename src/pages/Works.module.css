@@ -31,7 +31,13 @@
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    transition: background-color 0.2s, color 0.2s;
 
+}
+
+.toggleButton:hover {
+    background-color: #fcba52;
+    color: #ffffff;
 }
 
 .headerBox {

@@ -29,7 +29,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.3s, color 0.3s;
     
+}
+
+.btnMenu:hover {
+    background-color: #facc82;
+    color: #ffffff;
 }
 
 .btnLoginContainer{
@@ -50,7 +56,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btnLogin:hover {
+    background-color: #facc82;
+    color: #ffffff;
 }
 .contactInfo{
     font-size: 16px;

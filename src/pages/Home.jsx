@@ -22,7 +22,7 @@ function Home() {
               Adopt Family
             </h2>
             <p>포인핸드는 사지 않고 입양하는 문화를 만듭니다.</p>
-            <br />
+            <br /><br />
           </div>
         </div>
       </div>
